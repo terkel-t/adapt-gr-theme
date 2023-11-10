@@ -1,19 +1,16 @@
 {
-  "name": "adapt-contrib-vanilla",
-  "version": "9.13.1",
+  "name": "adapt-gr-theme",
+  "version": "0.0.1",
   "framework": ">=5.31.3",
   "homepage": "https://github.com/adaptlearning/adapt-contrib-vanilla",
   "bugs": "https://github.com/adaptlearning/adapt-contrib-vanilla/issues",
-  "theme": "vanilla",
-  "displayName": "Vanilla",
-  "description": "A core bundled theme",
+  "theme": "gr",
+  "displayName": "GR",
+  "description": "GR Theme",
   "main": "js/theme.js",
-  "keywords": [
-    "adapt-plugin",
-    "adapt-theme"
-  ],
+  "keywords": ["adapt-plugin", "adapt-theme"],
   "license": "GPL-3.0",
-  "targetAttribute": "_vanilla",
+  "targetAttribute": "_gr",
   "private": true,
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^9.0.2",
@@ -46,10 +43,7 @@
       [
         "@semantic-release/git",
         {
-          "assets": [
-            "package.json",
-            "bower.json"
-          ],
+          "assets": ["package.json", "bower.json"],
           "message": "Chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
         }
       ]
